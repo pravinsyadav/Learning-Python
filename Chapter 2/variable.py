@@ -25,7 +25,6 @@ print(z)
 
 # Global variable
 x = 10
-
 def print_global():
     print(x)  # Accessing global variable inside a function
 
