@@ -12,3 +12,4 @@ print(name.capitalize())       # 'capitalize' is a method that are used to capit
 
 
 #there are lot of fucntion or methods of string we can use in dsa 
+# after applying methods or functions on string it gives another new string or we can say changes made are reflected in another new string
