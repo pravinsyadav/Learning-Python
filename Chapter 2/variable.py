@@ -33,3 +33,4 @@ def print_global():
 
 print_global()  # Output: 10
 
+
