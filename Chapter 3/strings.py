@@ -18,4 +18,4 @@ print(word[1:7:2])       #here skip value works first it reserve 1 to 6 then pri
                              #start character then whatever the number is given it exlude that amount of character and print selected character
 
 #steps for skip value
-print(word[1:7])    # it gives 1,2,3,4,5,6 then we have 2 so it starts from 1 then it exlude 1,2 and print 3 similarly it exludes 3,4 and print 5
+print(word[1:7])    # it gives 1,2,3,4,5,6 then above we have 2 so it starts from 1 then it exlude 1,2 and print 3 similarly it exludes 3,4 and print 5
