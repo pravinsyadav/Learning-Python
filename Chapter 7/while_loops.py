@@ -10,7 +10,7 @@ while(i<6):
 l = [1, "pravin", "this", "rohan", 33.3, "yadav"]
 i = 0
 while(i<len(l)):   
-    print(l[i])
+    print(l[i],end=" ")
     i +=1
 
 

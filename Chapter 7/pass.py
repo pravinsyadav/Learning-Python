@@ -7,3 +7,12 @@ for i in range(6):
 for i in range(10):
     print(i,end=" ")
     i += 1
+
+print()
+
+for i in range(10):
+    print(i,end=" ")
+
+#In both codes, the output is the same because the for loop takes values from range() and assigns them to i in each iteration. 
+#Even if we write i += 1, it doesn’t affect the loop, because Python overwrites i with the next value from range().
+# So both codes behave the same.

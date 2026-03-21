@@ -18,8 +18,8 @@ print()
 # we can also use for loop with else statement
 
 l = (1,3,4,5)
-for item in l:
-    print(item,end=" ")
+for i in l:
+    print(i,end=" ")
 else:
     print()
     print("done")          # this is printed when the loop exhaust!
