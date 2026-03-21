@@ -23,5 +23,5 @@ print(marks.values())      # it gives only values present in dict
 
 
 # here both gives same output but there is slight difference in both
-print(marks.get("pravin"))         # it checks key in dict if present then returs its value if key is not present then it returns none       
-print(marks["pravin"])             # it checks key in dict if present then returs its value if key is not present then it returns key error
+print(marks.get("pravin"))         # it checks key in dict if present then returns its value if key is not present then it returns none       
+print(marks["pravin"])             # it checks key in dict if present then returns its value if key is not present then it returns key error
