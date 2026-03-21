@@ -21,5 +21,7 @@ for i in range(25):
 for i in range(25):
     print(i,end=" ")       # end means don't go to next line ... print space instead 
 
+# whenever we use end = " " then use one empty print() for moving to next line 
+
 print()               # this will print empty line or it moves cursor to next line 
 print(*range(25))            # this will print range from 0 to 24 

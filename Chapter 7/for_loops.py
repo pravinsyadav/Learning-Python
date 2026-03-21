@@ -12,13 +12,14 @@ for i in range(4):           # range(4) means 0-3   that means it will print "0,
 
 s = "pravin"
 for i in s:
-    print(i)
-
+    print(i,end=" ")
+print()
 
 # we can also use for loop with else statement
 
 l = (1,3,4,5)
 for item in l:
-    print(item)
+    print(item,end=" ")
 else:
+    print()
     print("done")          # this is printed when the loop exhaust!
