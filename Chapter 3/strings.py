@@ -3,7 +3,7 @@ b = 'pravin'             # we can declare string in single , double , triple quo
 c = '''pravin'''
 
 
-nameshort = name[0:3]       #start from index 0 all the way till 3 (excluding 3)   that means it will print (0,1,2)
+nameshort = name[0:3]       # start from index 0 all the way till 3 (excluding 3)   that means it will print (0,1,2)
 print(nameshort)
 
 print(name[-4:-1])        # this is neagative slicing 
