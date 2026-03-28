@@ -8,8 +8,8 @@ def find(a, b, c):
     else:
         return c
     
-a = 11
-b = 2
-c = 3
+a = int(input("enter no 1: "))
+b = int(input("enter no 2: "))
+c = int(input("enter no 3: "))
 
-print(find(a, b ,c))
+print("largest no is: ", find(a, b ,c))
