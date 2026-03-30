@@ -21,5 +21,5 @@ l = (1,3,4,5)
 for i in l:
     print(i,end=" ")
 else:
-    print()
+    print()                # this print used to print empty line 
     print("done")          # this is printed when the loop exhaust!
