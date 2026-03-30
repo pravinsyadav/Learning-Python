@@ -7,6 +7,9 @@ for i in range(1, 11):
     print(f"{i} * {n} = {n*i}")        # here we used f string
     i += 1
 
+for i in range(1,11):
+    print(i*n, end=" ")
+    i = i+1
 
 # VERY IMP ->
      # we know python by default print new line when using print function 
