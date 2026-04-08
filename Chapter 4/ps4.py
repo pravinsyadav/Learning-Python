@@ -10,5 +10,5 @@ f3 = input("enter fruit 3: ")
 fruits.append(f3)
 f4 = input("enter fruit 4: ")
 fruits.append(f4)
-
+#.append will add item at end of list 
 print(fruits)
