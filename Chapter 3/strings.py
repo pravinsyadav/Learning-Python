@@ -6,7 +6,7 @@ c = '''pravin'''
 nameshort = name[0:3]       # start from index 0 all the way till 3 (excluding 3)   that means it will print (0,1,2)
 print(nameshort)
 
-print(name[-4:-1])        # this is neagative slicing 
+print(name[-4:-1])        # this is neagative slicing from right to left 
 print(name[1:4])         # here we converted negative number to its corresponding positive number
 
 
