@@ -6,7 +6,6 @@ marks = {
     "vivek" :95           # here we can see dict can store key-value pair
 }
 
-
 print(marks)
 print(type(marks))            # class = dict
 print(len(marks))

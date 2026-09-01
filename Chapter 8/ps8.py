@@ -13,3 +13,16 @@ b = int(input("enter no 2: "))
 c = int(input("enter no 3: "))
 
 print("largest no is: ", find(a, b ,c))
+
+
+
+# write a function to find even or odd number 
+
+def even_odd(number):
+    if number % 2 == 0:
+        return "even" 
+    else:
+        return "odd"
+
+print(even_odd(5))
+print(even_odd(6))

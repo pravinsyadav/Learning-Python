@@ -13,6 +13,6 @@ for i in range(1,11):
 
 # VERY IMP ->
      # we know python by default print new line when using print function 
-     # to avoid new line we use (end = "") in print statement in one line
+     # to avoid new line we use (end = "") in print statement to print in one line
      # example->  print(i, end = "")
 

@@ -6,7 +6,8 @@
 #ex. range(1, n+1)   --> output: 1,2,3,4,n       .. ex. range(1,4+1) --> output: 1,2,3,4
 
 for i in range(4):           # range(4) means 0-3   that means it will print "0,1,2,3"
-    print(i)
+    print(i,end=" ")
+print()
 
 # we can iterate tuple, list, string 
 

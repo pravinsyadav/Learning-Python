@@ -1,4 +1,12 @@
-friends = ["apple","mango", 5, 33.3, "banana"]          # this is list of different type of items...... 'lists' are mutable
-print(friends[0])                         # we can store any type of data in list
-friends[0] = "grapes"           # here we changed item present at index 0
-print(friends[0])
+
+# METHODS OF TUPLE
+
+a = (33, 4 ,4 , 49, 495,29)
+
+no = a.count(4)           # .count will count the no present in tuple 
+print(no)
+
+i = a.index(4,0,-1)          # it will return the index of that number
+print(i)
+
+print(len(a))
